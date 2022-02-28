@@ -5,7 +5,7 @@ package bg.hhyusein.covidtracker.models;
  * @author xMrShadyx (Hyusein Hyusein)
  */
 
-public class RecoveryStats {
+public class DeathStats {
 
     private String state;
     private String country;
@@ -20,16 +20,8 @@ public class RecoveryStats {
         this.diffFromPrevDay = diffFromPrevDay;
     }
 
-    public String getState() {
-        return state;
-    }
-
     public void setState(String state) {
         this.state = state;
-    }
-
-    public String getCountry() {
-        return country;
     }
 
     public void setCountry(String country) {
